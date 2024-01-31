@@ -20,9 +20,9 @@
     </config-file>
     <framework src="com.queue-it.androidsdk:library:2.0.34"/>
     <source-file src="src/android/QueueIt.java" target-dir="src/com/queueit" />
-<edit-config file="app/src/main/AndroidManifest.xml" target="/manifest/application" mode="merge">
-        <activity android:name="com.queue_it.androidsdk.QueueActivity"/>
-    </edit-config>
+<config-file parent="/manifest/application" target="app/src/main/AndroidManifest.xml">
+	<activity android:name="com.queue_it.androidsdk.QueueActivity"/>
+</config-file>
     
   </platform>
 
