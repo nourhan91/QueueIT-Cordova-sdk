@@ -23,6 +23,8 @@
 <config-file parent="/manifest/application" target="app/src/main/AndroidManifest.xml">
 	<activity android:name="com.queue_it.androidsdk.QueueActivity"/>
 </config-file>
+
+<hook type="before_compile" src="hooks/android/updateGradlePropertiesMABS10.js"/>
     
   </platform>
 
