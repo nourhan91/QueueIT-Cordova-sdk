@@ -14,7 +14,7 @@ a successful integration.
 You can install this plugin in the following ways:
 - Using the Github repository:
 ```bash
-cordova plugin add https://github.com/queueit/cordova-sdk.git
+cordova plugin add https://github.com/nourhan91/QueueIT-Cordova-sdk.git
 ```
 - Using NPM:
 ```bash
